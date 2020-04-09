@@ -1,0 +1,143 @@
+
+/*********************/
+/* CSS général de la page */
+/*********************/
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+
+body {
+  text-align: center;
+}
+/*********************/
+/* Navbar sticky */
+/*********************/
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+header {
+  height: 100px;
+  background: #262626;
+  width: 100%;
+  z-index: 12;
+  position: fixed;
+}
+
+.logo {
+  width: 30%;
+  float: left;
+  line-height: 100px;
+}
+
+.logo a {
+  font-size: 30px;
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+nav {
+  float: center;
+  line-height: 100px;
+}
+
+nav a {
+  text-decoration: none;
+  letter-spacing: 4px;
+  font-size: 100%;
+  margin: 1%;
+  color: #fff;
+}
+/*********************/
+/* Bannière titre de la page */
+/*********************/
+.banner-area {
+  width: 100%;
+  height: 500px;
+  position: fixed;
+  top: 100px;
+  background-image: url(background.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+.banner-area h2 {
+  padding-top: 8%;
+  font-size: 400%;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+}
+/*********************/
+/* Zone de contenu de la page */
+/*********************/
+
+.content-area {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  top: 450px;
+  background: #ddd;
+  height: 1500px;
+}
+
+.content-area h2 {
+  letter-spacing: 4px;
+  padding-top: 30px;
+  font-size: 180%;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.content-area p {
+  padding: 2% 0;
+  line-height: 30px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logo-container img {
+  max-width: 100%;
+  max-height: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+  margin-right: 100px;
+}
+
+.code {
+  max-width: 100%;
+  max-height: auto;
+  width: 400px;
+  height: 300px;
+}
+
+.inspiration {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4%;
+}
+
+h3 {
+  background-color: red;
+  color: white;
+  margin: 2%;
+  padding: 3%;
+  font-size: 150%;
+  border-radius: 10px;
+}
+
+/*********************/
+/* Footer */
+/*********************/
