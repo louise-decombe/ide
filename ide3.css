@@ -5,12 +5,13 @@
   padding: 0;
   margin: 0;
   text-decoration: none;
-  font-family: 'Baloo Bhaina 2', cursive;
 }
 
 body {
   text-align: center;
+  margin: auto;
 }
+
 /*********************/
 /* Navbar sticky */
 /*********************/
@@ -25,6 +26,7 @@ header {
   width: 100%;
   z-index: 12;
   position: fixed;
+  font-family: 'Baloo Bhaina 2', cursive;
 }
 
 .logo {
@@ -48,18 +50,19 @@ nav a {
 }
 
 nav {
-    float: center;
-    line-height: 100px;
+  float: center;
+  line-height: 100px;
 }
 
- .liennav:hover {
-  color:#262626;
+.liennav:hover {
+  color: orange;
   background-color: white;
   margin: 2%;
   padding: 2%;
   font-size: 150%;
   border-radius: 10px;
 }
+
 /*********************/
 /* Bannière titre de la page */
 /*********************/
@@ -86,13 +89,157 @@ nav {
 /*********************/
 /* Zone de contenu de la page */
 /*********************/
-
 .content-area {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   position: relative;
   width: 100%;
   top: 450px;
   background: #ddd;
   height: 1500px;
+  font-family: 'Do Hyeon', sans-serif;
+}
+
+.blocinfo {
+  display: flex;
+  flex-basis: 50%;
+  background-color: orange;
+  flex-basis: 40%;
+  color: white;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 20px;
+  line-height: 65px;
+  font-size: 120%;
+  text-align: center;
+}
+
+.blocinfo table {
+  width: 50%;
+}
+
+.blocinfo img {
+  border-radius: 10px;
+  margin-left: 10%;
+  padding: 2%;
+  border-radius: 40px;
+  width: 300px;
+}
+
+.blocliens {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  background-color: orange;
+  flex-basis: 40%;
+  color: white;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 20px;
+  line-height: 40px;
+}
+
+.blocliens p {
+  font-size: 200%;
+}
+
+.blocliens img:hover {
+  width: 2%;
+}
+
+.blocliens a {
+  color: white;
+}
+
+.blocliens h3:hover {
+  background-color: white;
+  color: orange;
+  margin: 1%;
+}
+
+.blocdescription {
+  flex-basis: 40%;
+  color: black;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 20px;
+  line-height: 40px;
+  font-size: 150%;
+}
+
+.blocdescription h1 {
+  color: orange;
+}
+
+.blocdescription h1:hover {
+  font-style: italic;
+}
+
+.sous-bloc {
+  display: flex;
+  justify-content: space-around;
+  height: 30%;
+}
+
+.blocimage {
+  display: flex;
+  flex-direction: row;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.blocimage img {
+  margin: 1%;
+  width: 30%;
+  border-radius: 40px;
+}
+
+.ball {
+  background: green;
+  width: 110px;
+  height: 110px;
+  border-radius: 50px;
+  margin: 80px auto 0 auto;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-50px);
+  }
+}
+
+.ball {
+  animation: bounce 0.8s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.ball2 {
+  background: #f45342;
+  width: 110px;
+  height: 110px;
+  border-radius: 50px;
+  margin: 80px auto 0 auto;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-50px);
+  }
+}
+
+.ball2 {
+  animation: bounce 0.8s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
 }
