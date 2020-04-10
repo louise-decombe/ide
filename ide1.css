@@ -1,0 +1,214 @@
+/*********************/
+/* CSS général de la page */
+/*********************/
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  text-align: center;
+}
+/*********************/
+/* Navbar sticky */
+/*********************/
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+header {
+  height: 100px;
+  background: #262626;
+  width: 100%;
+  z-index: 12;
+  position: fixed;
+  font-family: 'Baloo Bhaina 2', cursive;
+
+}
+
+.logo {
+  width: 30%;
+  float: left;
+  line-height: 100px;
+}
+
+.logo a {
+  font-size: 30px;
+  color: #fff;
+  letter-spacing: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  letter-spacing: 4px;
+  font-size: 100%;
+  margin: 1%;
+  color: #fff;
+}
+
+nav {
+    float: center;
+    line-height: 100px;
+}
+
+ .liennav:hover {
+  color:#262626;
+  background-color: white;
+  margin: 2%;
+  padding: 2%;
+  font-size: 150%;
+  border-radius: 10px;
+}
+/*********************/
+/* Bannière titre de la page */
+/*********************/
+.banner-area {
+  width: 100%;
+  height: 500px;
+  position: fixed;
+  top: 100px;
+  background-image: url(media/code2.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  letter-spacing: 10px;
+}
+
+.banner-area h2 {
+  padding-top: 8%;
+  font-size: 400%;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+text-shadow: 20px 20px 1px black; }
+
+/*********************/
+/* Zone de contenu de la page */
+/*********************/
+
+.content-area {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 450px;
+  background: #ddd;
+  height: 1500px;
+}
+
+.sous-bloc {
+  display: flex;
+  flex-direction: row;
+  height: 55%;
+}
+
+.bloc1 {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color:  #e0ee08 ;
+  flex-basis: 33%;
+  height: 90%;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 20px;
+    font-family: 'Comic Neue', cursive;
+line-height: 50px;
+font-size: 150%;
+}
+
+.bloc1 img{
+  width: 10%;
+  height: 10%;
+  margin: 2%;
+}
+
+.bloc2 {
+  display: flex;
+  flex-direction: ;
+  box-sizing: border-box;
+  background-color:  #ddd ;
+  flex-basis: 33%;
+  height: 55%;
+}
+
+.bloc2 img {
+
+width: 100%;
+height: 140%;
+border-radius: 10px;
+margin: 5%;
+}
+
+.bloc3{
+
+  display: flex;
+  flex-direction: column;
+  background-color:  #f182b8 ;
+  flex-basis: 34%;
+  height: 90%;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 20px;
+  font-family: 'Comic Neue', cursive;
+  line-height: 40px;
+}
+
+.bloc3 img {
+  width: 60px;
+  height: 60px;
+}
+
+.bloc4 {
+display: flex;
+flex-direction: column;
+background-color:  #75d60d ;
+flex-basis:40%;
+color: white;
+margin: 1%;
+padding: 1%;
+border-radius: 20px;
+line-height: 40px;
+
+font-family: 'Comic Neue', cursive;
+}
+
+.bloc4 p{
+  font-size: 200%;
+}
+
+
+.bloc4 img:hover {
+
+width: 2%;
+}
+
+.bloc4 a {
+  color:white;
+}
+
+.bloc4 h3:hover {
+background-color: white;
+color:#75d60d;
+margin: 1%;
+}
+
+.reseaux {
+  display: flex;
+  flex-direction: row;
+}
+
+.bloc5 {
+  display: flex;
+  flex-direction: row;
+  flex-basis:50%;
+  font-family: 'Comic Neue', cursive;
+font-size: 100%;
+}
+
+.bloc5 img {
+  width: 40%;
+  margin: 1%;
+  justify-content: center;
+}

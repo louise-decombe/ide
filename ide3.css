@@ -1,4 +1,3 @@
-
 /*********************/
 /* CSS général de la page */
 /*********************/
@@ -69,7 +68,7 @@ nav {
   height: 500px;
   position: fixed;
   top: 100px;
-  background-image: url(background.jpg);
+  background-image: url(media/code4.jpg);
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -97,82 +96,3 @@ nav {
   background: #ddd;
   height: 1500px;
 }
-
-.content-area h2 {
-  letter-spacing: 4px;
-  padding-top: 30px;
-  font-size: 180%;
-  margin: 0;
-  font-family: 'Oswald', sans-serif;
-}
-
-.content-area p {
-  padding: 2% 0;
-  line-height: 30px;
-}
-
-.logo-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-}
-
-.logo-container img {
-  max-width: 100%;
-  max-height: auto;
-  width: 150px;
-  height: 150px;
-  border-radius: 50px;
-  margin-right: 100px;
-}
-
-.logo-container:hover {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
-
-}
-
-
-
-.code {
-  max-width: 100%;
-  max-height: auto;
-  width: 400px;
-  height: 300px;
-}
-
-.inspiration {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 4%;
-}
-
-
-
-
-
-
-
-h3 {
-  background-color: #262626;
-  color: white;
-  margin: 2%;
-  padding: 3%;
-  font-size: 150%;
-  border-radius: 10px;
-}
-
-h3:hover {
-background-color: white;
-color:#262626;
-font-size: 200%;
-}
-
-/*********************/
-/* Footer */
-/*********************/
